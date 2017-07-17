@@ -46,6 +46,7 @@ html {
   left: 25%;
   position: relative;
   display: inline-block;
+  background-color: black;
   overflow: scroll;
 }
 .footer-wrapper{
@@ -76,6 +77,41 @@ html {
   background-color: green;
 }
 
+<<<<<<< HEAD
+/*This begins the employee styling*/
+.twoImageHolder{
+  display: flex;
+}
+.eployee-card{
+  width: 35%;
+  height: 100%;
+  position: inherit;
+  margin-left: 10%;
+  float: left;
+  box-shadow: 0px 0px 10px white;
+}
+.employeeImg {
+  width: 100%;
+  height: 100%;
+
+}
+#emploee-h2 {
+  text-align: center;
+  color: white;
+}
+.emploee-h2{
+  text-align: center;
+  color: white;
+}
+.emploee-p{
+  text-align: center;
+  color: white;
+}
+.emploee-h3 {
+  text-align: center;
+  color: white;
+}
+
 div.awardsContainer {
  padding: 60px 0 30px 180px
 }
@@ -96,4 +132,3 @@ div.about {
 h2.about {
   padding: 10px;
 }
-
