@@ -46,5 +46,53 @@ const pajamas = [
         colors: ["blue", "yellow", "brown"],
         category: "ch",
         gender: "w"
+    },
+    {
+        name: "YP563GBSGS",
+        description: "These Hanes Big Men's 2 Pack Knit Shorts deliver comfortable all-day wear with a contrast color styling option. Each pair is created using soft knit cotton and enhanced with a Comfort Flex waistband that provides a flexible fit. These Hanes knit shorts also include two deep pockets for securely storing your phone, wallet and other accessories.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "a",
+        gender: "m"
+    },
+    {
+        name: "5032426FL",
+        description: "Men's fancy cotton/polyester short sleeve short leg woven poplin pajama sets. Your are sure to sleep well in these comfortable fancy cotton/polyester woven poplin pajama sets. Cool short sleeve full button front shirt with piping trim. Elastic waist short with button front closure. Functional button fly.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "a",
+        gender: "m"
+    },
+    {
+        name: "FG38426FL",
+        description: "Hanes Men's Short Sleeve Short Leg Pajama Set. This classic short sleeve short leg pajama set from Hanes is great all year round. The cotton polyester blend is easy to care for. Machine wash in cold with like colors and tumble dry. This set has a fuller cut for easy movement. Available in Blue.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "a",
+        gender: "m"
+    },
+    {
+        name: "WN298BBSWM",
+        description: "Your little one will love the colorful graphics and cozy comfort of this boys' blanket sleeper based on the children's animated television series Paw Patrol. This pajama suit is lined with pillowy-soft micro fleece to keep him comfortable all night long and features a large graphic on the front with several canine characters from Paw Patrol. The zip front closure makes it easy to hop in and out of the suit, while the cuffs and scoop neckline and ribbed for a proper fit. These officially licensed Paw Patrol pajamas are great for sleeping and lounging around the house.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "ch",
+        gender: "m"
+    },
+    {
+        name: "KSGO5A",
+        description: "Your little one will absolutely love zipping into this girls' one-piece pajama suit from Gyrl Co. Made of soft and durable polyester with pillowy plush fabric both inside and out, this union suit will keep her cozy all night long. The zip front closure makes it easy to hop in and out of the suit, while there's a super-cute and colorful pattern printed all over. The sleeve and leg cuffs have elastic to stay in place and retain heat. These hooded pajamas are available in assorted styles and are great for sleepovers, slumber parties and lounging around the house.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "ch",
+        gender: "m"
+    },
+    {
+        name: "HK288GBSWM",
+        description: "Your little one will adore the colorful details and cozy comfort of this girls' hooded sleeper based on the iconic cat Hello Kitty. Made of pillowy-soft micro fleece, this union suit has a Hello Kitty pattern printed all over, as well as a hood with a set of 3D fabric ears and a bow for maximum cuteness. The zip front closure makes it easy to hop in and out of the suit, while the sleeve and leg cuffs are ribbed to stay in place and retain heat. This officially licensed Hello Kitty sleeper is great for catching some Z's and lounging around the house.",
+        img_ulr: "img/image-1.jpg",
+        colors: ["blue", "yellow", "brown"],
+        category: "ch",
+        gender: "m"
     }
 ]
