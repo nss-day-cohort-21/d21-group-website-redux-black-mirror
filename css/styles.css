@@ -48,6 +48,7 @@ html {
   display: inline-block;
   background-color: black;
   overflow: scroll;
+
 }
 .footer-wrapper{
 
@@ -77,7 +78,43 @@ html {
   background-color: green;
 }
 
-<<<<<<< HEAD
+/*Jobs Page Styling*/
+
+#jobs-title {
+	margin: 20px;
+}
+
+#jobs-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.job-card {
+	display: flex;
+	justify-content: flex-start;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin: 10px 30px 10px 30px;
+	box-shadow: 10px 10px 5px black;
+}
+
+.job-card > * {
+	margin: 10px 5px 10px 20px;
+}
+
+.job-card h4 {
+	width: 200px;
+}
+
+.job-card p {
+	width: 500px;
+}
+
+
+
 /*This begins the employee styling*/
 .twoImageHolder{
   display: flex;
@@ -124,6 +161,7 @@ img.awards {
 }
 
 div.about {
+	color: white;
   text-align: center;
   line-height: 1.5em;
   font-size: 1.2em;
