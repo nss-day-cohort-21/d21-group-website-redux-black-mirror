@@ -2,3 +2,5 @@ package.json
 package-lock.json
 node_modules/*
 .eslintrc.json
+.editorconfig
+=4.1.1
