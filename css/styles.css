@@ -47,7 +47,8 @@ html {
   left: 25%;
   position: relative;
   display: inline-block;
-  background-color: rgb(227, 143, 108)
+  background-color: rgb(227, 143, 108);
+  overflow: scroll;
 
 
 }
@@ -78,3 +79,25 @@ html {
 .footer-nav a:hover {
   background-color: green;
 }
+
+div.awardsContainer {
+ padding: 60px 0 30px 180px
+}
+
+img.awards {
+  display: block;
+  padding: 60px;
+  margin-left: 65px;
+
+}
+
+div.about {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+h2.about {
+  padding: 10px;
+}
+
