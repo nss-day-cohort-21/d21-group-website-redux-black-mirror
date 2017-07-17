@@ -15,7 +15,7 @@ html {
 
   width: 100%;
   height: 40%;
-  background-color: rgb(91, 137, 162);
+   background-color: rgb(91, 137, 162);
   position: relative;
 
 }
@@ -41,16 +41,12 @@ html {
   background-color: green;
 }
 .main-wrapper{
-
   width: 75%;
   height: 100%;
   left: 25%;
   position: relative;
   display: inline-block;
-  background-color: rgb(227, 143, 108);
   overflow: scroll;
-
-
 }
 .footer-wrapper{
 

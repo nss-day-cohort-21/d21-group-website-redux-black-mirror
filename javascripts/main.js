@@ -134,7 +134,7 @@ const pajamas = [
 ]
 
 
-const mainContent = document.querySelector('.main-wrapper');
+const mainContent = document.querySelector('.card-wrapper');
 let info = '';
 
 pajamas.forEach(function(item) {
