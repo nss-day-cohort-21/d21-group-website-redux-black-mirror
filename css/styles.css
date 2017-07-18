@@ -175,3 +175,35 @@ div.about {
 h2.about {
   padding: 10px;
 }
+.imageHolder{
+  width: 50%;
+  background-color: black;
+  left: 25%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.imageHolder img {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+.logoHolder {
+  background-color: orange;
+  width: 25%;
+  height: 100%;
+  position: absolute;
+}
+.logoHolder h1 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  position: absolute;
+}
+#holder2{
+  left: 75%;
+}
