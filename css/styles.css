@@ -165,6 +165,7 @@ body {
   color: white;
 }
 
+/*About page styling*/
 div.awardsContainer {
  padding: 60px 0 30px 180px
 }
@@ -217,4 +218,25 @@ h2.about {
 }
 #holder2{
   left: 75%;
+}
+
+/*homepage styling*/
+
+div.home {
+  color: white;
+  text-align: center;
+  line-height: 1.6em;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+h2.home {
+  padding: 10px;
+}
+
+/*footer copyright styling*/
+
+
+p#copy {
+  text-align: center
 }
