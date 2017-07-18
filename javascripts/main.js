@@ -155,7 +155,7 @@ pajamas.forEach(function(item) {
                 </p>
               </div>
             </section>
-            <hr class="card-hr">
+            <hr class="card-hr"> 
             <section>
               <header class="specifications">
                 <h4>Specifications</h4>
