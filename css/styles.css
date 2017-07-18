@@ -67,6 +67,10 @@ body {
 }
 .footer-nav ul {
   position: relative;
+
+  height: 100%;
+
+  padding-top: 3%;
 }
 .footer-nav a{
   margin-top: 80%;
@@ -78,6 +82,13 @@ body {
   padding: 0px 10px;
   width: 100%;
   list-style-type: none;
+
+}
+.footer-wrapper p{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: white;
 }
 .footer-nav a:hover {
   background-color: green;
