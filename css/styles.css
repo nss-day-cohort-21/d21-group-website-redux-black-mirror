@@ -218,3 +218,35 @@ h2.about {
 #holder2{
   left: 75%;
 }
+
+/*Contact Page*/
+
+#address {
+	border: 3px solid white;
+	border-radius: 20px;
+	max-width: 300px;
+	margin: 30px auto;
+}
+
+#map {
+   width: 60%;
+   height: 400px;
+   background-color: grey;
+   border: 1px solid white;
+   border-radius: 25px;
+   margin: 20px auto;
+ }
+
+ /*Index styling Ted*/
+
+
+#welcome {
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	border: 20px dotted white;
+	padding: 100px 30px;
+	width: 300px;
+	margin: 0 auto;
+}
+

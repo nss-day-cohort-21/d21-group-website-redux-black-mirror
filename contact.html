@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Body Styles| About Us</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="page-wrapper">
+
+	<header class="header-wrapper">
+		<div class="imageHolder">
+			<img name="slide">
+		</div>
+		<div class="logoHolder" id="holder1">
+			<h1>Home Body Style</h1>
+		</div>
+		<div class="logoHolder" id="holder2">
+			<h1>Home Body Style</h1>
+		</div>
+	</header>
+
+	<aside class="aside-wrapper">
+		<nav class="aside-nav">
+			<h1><a href="index.html">Home Body Style</a></h1>
+			<a href="about.html">About</a>
+			<a href="employees.html">Employees</a>
+			<a href="jobs.html">Jobs</a>
+			<a href="products.html">Products</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</aside>
+
+	<main class="main-wrapper">
+		<div class="about">
+			<div id="address">
+				<h2 class="about">Contact Us</h2>
+				<p class="about">500 Interstate Blvd S #300<br>Nashville, TN 37210<br>615.555.1212</p>
+			</div>
+			<div id="map"></div>
+
+			
+		
+	</main>
+
+	<footer class="footer-wrapper">
+		<nav class="footer-nav">
+			<ul>
+				<a href="about.html">About</a>
+				<a href="employees.html">Employees</a>
+				<a href="jobs.html">Jobs</a>
+				<a href="products.html">Products</a>
+				<a href="contact.html">Products</a>
+			</ul>
+		</nav>
+		<p>&copy Home Body Style 2017</p>
+	</footer>
+	<script type="text/javascript" src="slideShowJavascript/slideShow.js">
+	</script>
+	<script>
+      function initMap() {
+        var uluru = {lat: 36.126029, lng: -86.719271};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByB8G3Mgm7InT7KVJWkqimm51ECL-uc84&callback=initMap">
+</script>
+</body>
+</html>
